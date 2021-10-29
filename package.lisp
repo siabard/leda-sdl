@@ -1,4 +1,5 @@
 ;;;; package.lisp
 
 (defpackage #:leda-sdl
-  (:use #:cl))
+  (:use #:cl )
+  (:export :basic-main))

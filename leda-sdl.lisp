@@ -3,6 +3,9 @@
 (in-package #:leda-sdl)
 
 
+
+;; run this on mac
+;; (sdl2:make-this-thread-main #'leda-sdl:basic-main)
 (defun clear-renderer (renderer)
   (progn
     (sdl2:set-render-draw-color renderer 0 0 0 255)
