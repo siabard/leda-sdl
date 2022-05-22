@@ -35,5 +35,6 @@
 		       (clear-renderer renderer)
 		       (sdl2:render-copy renderer img-texture)
 		       (sdl2:render-present renderer))
-		(:quit () t)))))))
-    ))
+		(:quit ()
+		       (sdl2-image:quit)
+		       t)))))))))
