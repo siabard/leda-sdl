@@ -10,4 +10,5 @@
   :components ((:module "src"
 		:serial t
 		:components ((:file "package")
+			     (:file "game-object")
 			     (:file "leda-sdl")))))
